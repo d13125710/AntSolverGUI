@@ -6,6 +6,9 @@ Version 1
 AntSolver is implemented in C++ and the main algorithm classes have been implemented using ISO standards, therefore enabling these classes to be imported to any other C++ application on any operating system. 
 Although Visual C++ 10 professional with service Pack 2 installed was used to compile this version. 
 
+To compile download to desktop
+and open AntSolver.vcxproj in visual C++ 10
+
 1.	The main algorithm classes, the entire logic of all the ant algorithms, and genetic algorithm have been encapsulated into these classes. All are accessed via an interface and created via a factory;
 2.	A Local search module with the methods of local search is discussed and can be applied to each solution of each algorithm (except the brute force algorithm); 
 3.	The Problem module implements the Travelling Salesperson Problem to demonstrate the flexibility of these algorithms; 
@@ -16,31 +19,32 @@ A Thomas Stützle/Lin Kernighan local search was also added.
 
 1)The main algorithm classes 
 Implemetation of the best worst Ant system
-BestWorstAntSystem.cpp 
-BestWorstAntSystem.h
+BestWorstAntSystem.cpp ,BestWorstAntSystem.h
+
 Implemetation of the brute force system
 BruteForceSystem.h
+
 Implemetation of the best worst Ant system
-CAntColonySystem.cpp
-CAntColonySystem.h
+CAntColonySystem.cpp , CAntColonySystem.h
+
 Implemetation of the Ant system
-CAntSystem.cpp
-CAntSystem.h
+CAntSystem.cpp,CAntSystem.h
+
 Implemetation of the Elitist Ant system
-CElitistAntSystem.cpp
-CElitistAntSystem.h
+CElitistAntSystem.cpp , CElitistAntSystem.h
 Implemetation of the MinMax Ant system
-CMinMaxAntSystem.cpp
-CMinMaxAntSystem.h
+CMinMaxAntSystem.cpp , CMinMaxAntSystem.h
 Implemetation of the Random Ant system
 RandomTest.h
+
 Implemetation of the Mutated  Ant system
-MutatedAnt1.cpp
-MutatedAnt1.h
+MutatedAnt1.cpp , MutatedAnt1.h
+
 Implemetation of the pheromone matrix
 PheroMatrix.h
+
 Implemetation of Genetic Algorithm
-CChromo.cpp  the chromosome class
+CChromo.cpp the chromosome class 
 CChromo.h
 CGeneticSystem.cpp
 CGeneticSystem.h
@@ -88,7 +92,7 @@ Experiments.cpp
 Experiments.h
 XlsxHeaders.cpp
 
-
+Others
 SimpleXlsxWriter
 Chartsheet.cpp
 Chartsheet.h
