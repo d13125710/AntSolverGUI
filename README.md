@@ -4,13 +4,17 @@ AntSolverGUI
 Version 1
 
 AntSolver is implemented in C++ and the main algorithm classes have been implemented using ISO standards, therefore enabling these classes to be imported to any other C++ application on any operating system. 
+Although Visual C++ 10 professional with service Pack 2 installed was used to compile this version. 
+
 1.	The main algorithm classes, the entire logic of all the ant algorithms, and genetic algorithm have been encapsulated into these classes. All are accessed via an interface and created via a factory;
 2.	A Local search module with the methods of local search is discussed and can be applied to each solution of each algorithm (except the brute force algorithm); 
 3.	The Problem module implements the Travelling Salesperson Problem to demonstrate the flexibility of these algorithms; 
 4.	A GUI interface module was created to visualise the algorithms and a MS Windows 64bit and 32 bit GUI interface to the algorithms classes was built with MFC compiled using Visual C++ 10;
 
+In compiling AntSolver the following code was used to provide access to MS Excel SimpleXlsxWriter 
+A Thomas Stützle/Lin Kernighan local search was also added. 
 
-Ant Algorithms Classes 
+1)The main algorithm classes 
 Implemetation of the best worst Ant system
 BestWorstAntSystem.cpp 
 BestWorstAntSystem.h
@@ -19,44 +23,57 @@ BruteForceSystem.h
 Implemetation of the best worst Ant system
 CAntColonySystem.cpp
 CAntColonySystem.h
-Implemetation of the best worst Ant system
+Implemetation of the Ant system
 CAntSystem.cpp
 CAntSystem.h
-Implemetation of the best worst Ant system
+Implemetation of the Elitist Ant system
 CElitistAntSystem.cpp
 CElitistAntSystem.h
-Implemetation of the best worst Ant system
+Implemetation of the MinMax Ant system
 CMinMaxAntSystem.cpp
 CMinMaxAntSystem.h
-Implemetation of the best worst Ant system
-
-Implemetation of the best worst Ant system
+Implemetation of the Random Ant system
 RandomTest.h
-Implemetation of the best worst Ant system
+Implemetation of the Mutated  Ant system
 MutatedAnt1.cpp
 MutatedAnt1.h
-
+Implemetation of the pheromone matrix
 PheroMatrix.h
-
-ProblemSolver.h
-observer.h
-
-Genetic Algorithm
-CChromo.cpp
+Implemetation of Genetic Algorithm
+CChromo.cpp  the chromosome class
 CChromo.h
 CGeneticSystem.cpp
 CGeneticSystem.h
 
-LocalSearch
+Interface Clasees
+ProblemSolver.h
+observer.h
+
+Others for parsing strings
+Log.h write a log file
+MakeString.h string functions
+TokenFinder.h string parsing
+Utils.h  Tour and parameters classes
+StopWatch.h for timing
+xlsLog.cpp  Excel log file writer
+xlsLog.h
+
+Factory
+TSPalgorithm.cpp
+TSPalgorithm.h
+TspsolverFactory.h
+
+
+2) LocalSearch classes
 CLocalSearch.h
 
-TSP FileReader
+3) TSP problem FileReader
 CTSPLIBFileReader.cpp
 CTSPLIBFileReader.h
 DistanceHelper.h
 
 
-GUI
+4) MFC GUI
 DExperiments.cpp
 DExperiments.h
 GA.cpp
@@ -66,28 +83,13 @@ GADlg.h
 Resource.h
 
 
+Automate experiments
 Experiments.cpp
 Experiments.h
-xlsLog.cpp
-xlsLog.h
 XlsxHeaders.cpp
 
-Timing
-StopWatch.h
 
-Others for Experiments
-Log.h
-MakeString.h
-TokenFinder.h
-Utils.h
-
-Factory
-TSPalgorithm.cpp
-TSPalgorithm.h
-TspsolverFactory.h
-
-
-
+SimpleXlsxWriter
 Chartsheet.cpp
 Chartsheet.h
 SimpleXlsxDef.h
