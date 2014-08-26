@@ -44,7 +44,6 @@ class CEuclidianDistance : public IDistance
 {
 	public:	
 			CEuclidianDistance(){}
-	//code traken from thomas studle
 	double calculate(double x1, double y1,double x2, double y2) 
 	{
 		double x = x1 - x2;
@@ -72,6 +71,7 @@ class CGeoDistance : public IDistance
 {
 	public:
 		CGeoDistance(){}
+			//code traken from thomas studle
 	double calculate(double x1, double y1,double x2, double y2){  
 		double deg, min;
 		double lati, latj, longi, longj;
@@ -104,6 +104,7 @@ class CAttDistance : public IDistance
 {
 public:
 	CAttDistance() {}
+		//code traken from thomas studle
 	double calculate(double x1, double y1,double x2, double y2)
 	 {
 	 

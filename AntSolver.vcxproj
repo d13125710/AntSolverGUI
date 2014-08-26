@@ -276,7 +276,6 @@
   <ItemGroup>
     <None Include="res\GA.ico" />
     <None Include="res\GA.rc2" />
-    <None Include="Xlsx\mainpage.dox" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BestWorstAntSystem.h" />
@@ -295,7 +294,6 @@
     <ClInclude Include="Experiments.h" />
     <ClInclude Include="Log.h" />
     <ClInclude Include="MakeString.h" />
-    <ClInclude Include="MemDC.h" />
     <ClInclude Include="MutatedAnt1.h" />
     <ClInclude Include="observer.h" />
     <ClInclude Include="PheroMatrix.h" />
