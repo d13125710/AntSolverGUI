@@ -22,8 +22,9 @@ END_MESSAGE_MAP()
 
 CTwoOptApp::CTwoOptApp()
 {
-	// TODO: add construction code here,
+	// TODO: addGs construction code here,
 	// Place all significant initialization in InitInstance
+
 }
 
 

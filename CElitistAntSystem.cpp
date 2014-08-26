@@ -1,15 +1,23 @@
+//************************************
+// written by Gareth Hunter DIT Kevin Street artefact's for dissertation 
+// MSc advanced software engineering Aug 2014
+// The artefacts are available under the GNU license for download and modification
+// any questions please email me at gar_hunter@yahoo.com
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+// ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+// WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+// DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> BE LIABLE FOR ANY
+// DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+// (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+// LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+// ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+// (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+// SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+//************************************
+#include "StdAfx.h"
 #include "StdAfx.h"
 #include "CElitistAntSystem.h"
 
-/*
-A first improvement on the initial AS, called the elitist strategy for Ant System
-(EAS), was introduced in Dorigo (1992) and Dorigo et al., (1991a, 1996). The idea is
-to provide strong additional reinforcement to the arcs belonging to the best tour
-found since the start of the algorithm; this tour is denoted as Tbs (best-so-far tour) in
-the following. Note that this additional feedback to the best-so-far tour (which can
-be viewed as additional pheromone deposited by an additional ant called best-so-far
-ant) is another example of a daemon action of the ACO metaheuristic.
-/*/
 
 //************************************
 // Method:    CElitistAntSystem
