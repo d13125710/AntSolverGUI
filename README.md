@@ -2,9 +2,9 @@ AntSolverGUI
 ============
 
 AntSolver is a Windows 64 bit program that solves TSP files. As developed by Gareth Hunter for my dissertation submitted in partial fulfilment of the requirements of Dublin Institute of Technology for the degree of
-M.Sc. in Computing (Advanced Software Engineering) "Ants find the shortest path"
+M.Sc. in Computing (Advanced Software Engineering) "Ants find the shortest path" 2014
 
-using differnet Ant Colonly Algorithms , and thegenetic algorithm in one framework, and displays visual feeback of the inner workings of each algorithm.
+Implemented is 6 differnet Ant Colonly Algorithms , and the genetic algorithm in one framework, and displays visual feeback of the inner workings of each algorithm.
 
 AntSolver is implemented in C++ and the main algorithm classes have been implemented using standard C++ , therefore enabling these classes to be imported to any other C++ application on any operating system. 
 Although Visual C++ 10 professional with service Pack 2 installed was used to compile this version. 
