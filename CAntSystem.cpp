@@ -103,7 +103,7 @@ void CAntSystem::Create(Parameters& Par)
 
 	m_startTime.startTimer();
 
-	m_tourStats.foundTime = 0.00001; // set to a small value as ma finds solutions quicker than the timer
+	m_tourStats.foundTime = 0.00001; // set to a small value as ma finds solutions almost quicker than the timer
 
 }
 
